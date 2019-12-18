@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,12 @@
   "dependencies": {
     "apollo-server": "^2.9.14",
     "apollo-server-express": "^2.9.14",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "graphql": "^14.5.8"
+    "graphql": "^14.5.8",
+    "@babel/polyfill": "^7.6.0",
+    "apollo-link-error": "^1.1.12",
+    "apollo-link-http": "^1.5.16",
+    "babel-preset-es2015": "^6.24.1",
   }
 }
