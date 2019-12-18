@@ -1,0 +1,29 @@
+{
+  "name": "apollo_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnteoCapeqi/apollo_learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnteoCapeqi/apollo_learn/issues"
+  },
+  "homepage": "https://github.com/AnteoCapeqi/apollo_learn#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.14",
+    "apollo-server-express": "^2.9.14",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8"
+  }
+}
